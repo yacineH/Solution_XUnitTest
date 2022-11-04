@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Solution_XUnitTest.Core
+namespace Solution_XUnitTest.Core.Test1
 {
-    public enum HealthInsurancePackage
+    public interface IZoneService
     {
-        Basic,
-        Fair,
-        Premium
+        bool IsDangerZone(string dutyStation);
     }
 }

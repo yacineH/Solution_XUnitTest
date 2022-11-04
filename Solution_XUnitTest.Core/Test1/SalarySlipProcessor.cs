@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Solution_XUnitTest.Core
+namespace Solution_XUnitTest.Core.Test1
 {
     public class SalarySlipProcessor
     {
@@ -153,7 +153,7 @@ namespace Solution_XUnitTest.Core
 
 
             var netSalary =
-                (basicSalary + transportationAllowance + spouseAllowance + dependantsAllowance + dangerPay)
+                basicSalary + transportationAllowance + spouseAllowance + dependantsAllowance + dangerPay
                 - (pensionDeductions + healthInduranceDeduction + tax);
 
             return netSalary;

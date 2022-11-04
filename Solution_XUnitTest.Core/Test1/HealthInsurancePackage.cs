@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Solution_XUnitTest.Core
+namespace Solution_XUnitTest.Core.Test1
 {
-    public enum WorkPlatform
+    public enum HealthInsurancePackage
     {
-        Office,
-        Remote,
-        Hybrid
+        Basic,
+        Fair,
+        Premium
     }
 }

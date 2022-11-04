@@ -1,4 +1,4 @@
-﻿using Solution_XUnitTest.Core;
+﻿using Solution_XUnitTest.Core.Test1;
 using System;
 
 namespace Solution_XUnitTest.Client
